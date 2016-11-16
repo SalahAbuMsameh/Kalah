@@ -1,0 +1,65 @@
+/* kalah css */
+
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h3 {
+	padding-bottom: 30px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	background-color: #d3d7da;
+}
+
+.game-board {
+	height: 150px;
+	width: 100%;
+	border: 1px solid #e4e6e8;
+	float: left;
+}
+
+.player-house {
+	height: 148px;
+	line-height: 148px;
+	width: 12.27%;
+	float: left;
+	text-align: center;
+	border: 1px solid #e4e6e8;
+}
+
+#pits {
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+
+#pits td {
+	border: 1px solid #e4e6e8;
+	text-align: center;
+}
+
+#pits td:hover {
+	background-color: #d3d7da;
+}
+
+#pits a {
+	text-decoration: none;
+}
+
+.disabled {
+	pointer-events: none;
+   	cursor: default;
+}
+
+#footer {
+	color: red;
+	float: left;
+	padding-top: 20px;
+}
